@@ -1,28 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter,Route} from 'react-router-dom'
+import Navbar from './components/HomePage/Navbar'
+import Home from './components/HomePage/Home'
+import About from './components/RandomizerPage/About'
+import Contact from './components/HomePage/Contact'
+import Footer from './components/FooterPage/Footer'
+import Recipe from './components/DetailsPages/Recipe'
+
+
+
+// The Routes parameters for the application
+
 
 class App extends Component {
+  
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+      <BrowserRouter>
+       <div className="App">
+      <header className="header">
+      <Navbar />
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About}/>
+      <Route path="/contact" component={Contact}/>
+      <Route path="/recipe/:id" component={Recipe}/>
+      </header> 
+       <Footer /> 
+       </div>
+      </BrowserRouter>
+  
+    )
+  };
+    
+ 
 }
-
 export default App;
