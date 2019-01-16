@@ -2,6 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+This is my first React app website, that i have created for a test. 
+
+
+![home](https://imageshack.com/a/img921/7569/Ys2JK8.png)
+![about](./img/recipe_id.about.png)
+![contact](./img/recipe_id.contact.png)
 In the project directory, you can run:
 
 ### `npm start`
