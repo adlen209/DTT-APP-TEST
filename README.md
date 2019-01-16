@@ -1,14 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Materialized with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Title: Recipe_ID®
 
-This is my first React app website, that i have created for a test. 
+This is my first React app website, that i have created for a test.
 
 
 ![home](https://imageshack.com/a/img921/7569/Ys2JK8.png)
-![about](./img/recipe_id.about.png)
-![contact](./img/recipe_id.contact.png)
-In the project directory, you can run:
+![about](https://imageshack.com/a/img921/1975/YGE4E9.png)
+![contact](https://imageshack.com/a/img921/4228/lfa21l.png)
+
 
 ### `npm start`
 
